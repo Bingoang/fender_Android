@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background_night"
+    >
+    
+    <ScrollView 
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:background="@drawable/touchup_bg"
+        android:layout_margin="5dp"
+        >
+        	<LinearLayout 
+        	    android:layout_width="match_parent"
+	            android:layout_height="fill_parent"
+	            android:orientation="vertical"
+	            android:layout_margin="5dp"
+	            
+        	    >
+        	    <LinearLayout 
+        	        android:layout_width="match_parent"
+        	        android:layout_height="wrap_content"
+        	        android:orientation="horizontal"
+        	        android:layout_marginBottom="10dp"
+        	        >
+        	        <ImageButton 
+        	            android:id="@+id/idSettingBack"
+        	            android:layout_marginTop="5dp"
+        	            android:layout_width="25dp"
+        	            android:layout_height="25dp"
+        	            android:background="@drawable/settingbackup"
+        	            />
+        	        
+        	    </LinearLayout>
+        	    
+		             <RelativeLayout 
+		                  
+		                  android:layout_width="wrap_content"
+		                  android:layout_height="wrap_content"
+		                  android:layout_marginLeft="4dp"
+		                  android:layout_marginRight="10dp"
+		                  android:layout_marginTop="5dp"
+		                  android:layout_marginBottom="5dp"
+		                  >
+		        	        <LinearLayout 
+		        	            android:layout_width="wrap_content"
+		        	            android:layout_height="wrap_content"
+		        	            android:orientation="horizontal"
+			        	            >
+				        	        <ImageView 
+				        	            android:layout_height="24dp"
+				        	            android:layout_width="24dp"
+				        	            android:background="@drawable/a"
+				        	            android:id="@+id/setting1"
+				        	            />
+					              <TextView 
+					                  android:layout_width="wrap_content"
+					                  android:layout_height="wrap_content"
+					                  android:text="设置1"
+					                  android:textSize="20sp"
+					                  android:layout_centerVertical="true"
+					                  />
+			              </LinearLayout>
+			              <ImageButton 
+			                  android:id="@+id/idSettingButton1"
+			                  android:layout_width="wrap_content"
+			                  android:layout_height="28dp"
+			                  android:layout_alignParentRight="true"
+			                  android:background="@drawable/settingon"
+			                  />
+		              </RelativeLayout>
+
+	       	          <View  android:layout_height="1px" 
+			           android:layout_width="fill_parent"
+			           android:background="#ffffff"
+			           android:layout_marginTop="4dp"
+			           android:layout_marginBottom="4dp"
+			           android:layout_marginLeft="4dp"
+			           android:layout_marginRight="10dp"
+						/>
+	       	          
+	       	          
+	       	         <RelativeLayout 
+		                  
+		                  android:layout_width="wrap_content"
+		                  android:layout_height="wrap_content"
+		                  android:layout_marginLeft="4dp"
+		                  android:layout_marginRight="10dp"
+		                  android:layout_marginTop="5dp"
+		                  android:layout_marginBottom="5dp"
+		                  >
+		        	        <LinearLayout 
+		        	            android:layout_width="wrap_content"
+		        	            android:layout_height="wrap_content"
+		        	            android:orientation="horizontal"
+			        	            >
+				        	        <ImageView 
+				        	            android:layout_height="24dp"
+				        	            android:layout_width="24dp"
+				        	            android:background="@drawable/a"
+				        	            android:id="@+id/setting1"
+				        	            />
+					              <TextView 
+					                  android:layout_width="wrap_content"
+					                  android:layout_height="wrap_content"
+					                  android:text="设置1"
+					                  android:textSize="20sp"
+					                  android:layout_centerVertical="true"
+					                  />
+			              </LinearLayout>
+			              <ImageButton 
+			                  android:id="@+id/idSettingButton2"
+			                  android:layout_width="wrap_content"
+			                  android:layout_height="28dp"
+			                  android:layout_alignParentRight="true"
+			                  android:background="@drawable/settingon"
+			                  />
+		              </RelativeLayout>
+
+	       	          <View  android:layout_height="1px" 
+			           android:layout_width="fill_parent"
+			           android:background="#ffffff"
+			           android:layout_marginTop="4dp"
+			           android:layout_marginBottom="4dp"
+			           android:layout_marginLeft="4dp"
+			           android:layout_marginRight="10dp"
+						/>
+	       	          
+	       	          
+	       	          <RelativeLayout 
+		                  
+		                  android:layout_width="wrap_content"
+		                  android:layout_height="wrap_content"
+		                  android:layout_marginLeft="4dp"
+		                  android:layout_marginRight="10dp"
+		                  android:layout_marginTop="5dp"
+		                  android:layout_marginBottom="5dp"
+		                  >
+		        	        <LinearLayout 
+		        	            android:layout_width="wrap_content"
+		        	            android:layout_height="wrap_content"
+		        	            android:orientation="horizontal"
+			        	            >
+				        	        <ImageView 
+				        	            android:layout_height="24dp"
+				        	            android:layout_width="24dp"
+				        	            android:background="@drawable/a"
+				        	            android:id="@+id/setting1"
+				        	            />
+					              <TextView 
+					                  android:layout_width="wrap_content"
+					                  android:layout_height="wrap_content"
+					                  android:text="设置1"
+					                  android:textSize="20sp"
+					                  android:layout_centerVertical="true"
+					                  />
+			              </LinearLayout>
+			              <ImageButton 
+			                  android:id="@+id/idSettingButton3"
+			                  android:layout_width="wrap_content"
+			                  android:layout_height="28dp"
+			                  android:layout_alignParentRight="true"
+			                  android:background="@drawable/settingon"
+			                  />
+		              </RelativeLayout>
+	       	          <View  android:layout_height="1px" 
+			           android:layout_width="fill_parent"
+			           android:background="#ffffff"
+			           android:layout_marginTop="4dp"
+			           android:layout_marginBottom="4dp"
+			           android:layout_marginLeft="4dp"
+			           android:layout_marginRight="10dp"
+						/>
+	       	          
+	       	          
+	       	        <RelativeLayout 
+		                  
+		                  android:layout_width="wrap_content"
+		                  android:layout_height="wrap_content"
+		                  android:layout_marginLeft="4dp"
+		                  android:layout_marginRight="10dp"
+		                  android:layout_marginTop="5dp"
+		                  android:layout_marginBottom="5dp"
+		                  >
+		        	        <LinearLayout 
+		        	            android:layout_width="wrap_content"
+		        	            android:layout_height="wrap_content"
+		        	            android:orientation="horizontal"
+			        	            >
+				        	        <ImageView 
+				        	            android:layout_height="24dp"
+				        	            android:layout_width="24dp"
+				        	            android:background="@drawable/a"
+				        	            android:id="@+id/setting1"
+				        	            />
+					              <TextView 
+					                  android:layout_width="wrap_content"
+					                  android:layout_height="wrap_content"
+					                  android:text="设置1"
+					                  android:textSize="20sp"
+					                  android:layout_centerVertical="true"
+					                  />
+			              </LinearLayout>
+			              <ImageButton 
+			                  android:id="@+id/idSettingButton4"
+			                  android:layout_width="wrap_content"
+			                  android:layout_height="28dp"
+			                  android:layout_alignParentRight="true"
+			                  android:background="@drawable/settingon"
+			                  />
+		              </RelativeLayout>
+
+	       	          <View  android:layout_height="1px" 
+			           android:layout_width="fill_parent"
+			           android:background="#ffffff"
+			           android:layout_marginTop="4dp"
+			           android:layout_marginBottom="4dp"
+			           android:layout_marginLeft="4dp"
+			           android:layout_marginRight="10dp"
+						/>
+	       	          
+	       	          
+	       	          <RelativeLayout 
+		                  
+		                  android:layout_width="wrap_content"
+		                  android:layout_height="wrap_content"
+		                  android:layout_marginLeft="4dp"
+		                  android:layout_marginRight="10dp"
+		                  android:layout_marginTop="5dp"
+		                  android:layout_marginBottom="5dp"
+		                  >
+		        	        <LinearLayout 
+		        	            android:layout_width="wrap_content"
+		        	            android:layout_height="wrap_content"
+		        	            android:orientation="horizontal"
+			        	            >
+				        	        <ImageView 
+				        	            android:layout_height="24dp"
+				        	            android:layout_width="24dp"
+				        	            android:background="@drawable/a"
+				        	            android:id="@+id/setting1"
+				        	            />
+					              <TextView 
+					                  android:layout_width="wrap_content"
+					                  android:layout_height="wrap_content"
+					                  android:text="设置1"
+					                  android:textSize="20sp"
+					                  android:layout_centerVertical="true"
+					                  />
+			              </LinearLayout>
+			              <ImageButton 
+			                  android:id="@+id/idSettingButton5"
+			                  android:layout_width="wrap_content"
+			                  android:layout_height="28dp"
+			                  android:layout_alignParentRight="true"
+			                  android:background="@drawable/settingon"
+			                  />
+		              </RelativeLayout>
+
+	       	          <View  android:layout_height="1px" 
+			           android:layout_width="fill_parent"
+			           android:background="#ffffff"
+			           android:layout_marginTop="4dp"
+			           android:layout_marginBottom="4dp"
+			           android:layout_marginLeft="4dp"
+			           android:layout_marginRight="10dp"
+						/>
+	       	          
+	       	          
+	       	          <RelativeLayout 
+		                  
+		                  android:layout_width="wrap_content"
+		                  android:layout_height="wrap_content"
+		                  android:layout_marginLeft="4dp"
+		                  android:layout_marginRight="10dp"
+		                  android:layout_marginTop="5dp"
+		                  android:layout_marginBottom="5dp"
+		                  >
+		        	        <LinearLayout 
+		        	            android:layout_width="wrap_content"
+		        	            android:layout_height="wrap_content"
+		        	            android:orientation="horizontal"
+			        	            >
+				        	        <ImageView 
+				        	            android:layout_height="24dp"
+				        	            android:layout_width="24dp"
+				        	            android:background="@drawable/a"
+				        	            android:id="@+id/setting1"
+				        	            />
+					              <TextView 
+					                  android:layout_width="wrap_content"
+					                  android:layout_height="wrap_content"
+					                  android:text="设置1"
+					                  android:textSize="20sp"
+					                  android:layout_centerVertical="true"
+					                  />
+			              </LinearLayout>
+			              <ImageButton 
+			                  android:id="@+id/idSettingButton6"
+			                  android:layout_width="wrap_content"
+			                  android:layout_height="28dp"
+			                  android:layout_alignParentRight="true"
+			                  android:background="@drawable/settingon"
+			                  />
+		              </RelativeLayout>
+
+	       	          <View  android:layout_height="1px" 
+			           android:layout_width="fill_parent"
+			           android:background="#ffffff"
+			           android:layout_marginTop="4dp"
+			           android:layout_marginBottom="4dp"
+			           android:layout_marginLeft="4dp"
+			           android:layout_marginRight="10dp"
+						/>
+	       	          
+	       	          <RelativeLayout 
+		                  
+		                  android:layout_width="wrap_content"
+		                  android:layout_height="wrap_content"
+		                  android:layout_marginLeft="4dp"
+		                  android:layout_marginRight="10dp"
+		                  android:layout_marginTop="5dp"
+		                  android:layout_marginBottom="5dp"
+		                  >
+		        	        <LinearLayout 
+		        	            android:layout_width="wrap_content"
+		        	            android:layout_height="wrap_content"
+		        	            android:orientation="horizontal"
+			        	            >
+				        	        <ImageView 
+				        	            android:layout_height="24dp"
+				        	            android:layout_width="24dp"
+				        	            android:background="@drawable/a"
+				        	            android:id="@+id/setting1"
+				        	            />
+					              <TextView 
+					                  android:layout_width="wrap_content"
+					                  android:layout_height="wrap_content"
+					                  android:text="设置1"
+					                  android:textSize="20sp"
+					                  android:layout_centerVertical="true"
+					                  />
+			              </LinearLayout>
+			              <ImageButton 
+			                  android:id="@+id/idSettingButton7"
+			                  android:layout_width="wrap_content"
+			                  android:layout_height="28dp"
+			                  android:layout_alignParentRight="true"
+			                  android:background="@drawable/settingon"
+			                  />
+		              </RelativeLayout>
+
+	       	          <View  android:layout_height="1px" 
+			           android:layout_width="fill_parent"
+			           android:background="#ffffff"
+			           android:layout_marginTop="4dp"
+			           android:layout_marginBottom="4dp"
+			           android:layout_marginLeft="4dp"
+			           android:layout_marginRight="10dp"
+						/>
+	       	          
+	       	          <RelativeLayout 
+		                  
+		                  android:layout_width="wrap_content"
+		                  android:layout_height="wrap_content"
+		                  android:layout_marginLeft="4dp"
+		                  android:layout_marginRight="10dp"
+		                  android:layout_marginTop="5dp"
+		                  android:layout_marginBottom="5dp"
+		                  >
+		        	        <LinearLayout 
+		        	            android:layout_width="wrap_content"
+		        	            android:layout_height="wrap_content"
+		        	            android:orientation="horizontal"
+			        	            >
+				        	        <ImageView 
+				        	            android:layout_height="24dp"
+				        	            android:layout_width="24dp"
+				        	            android:background="@drawable/a"
+				        	            android:id="@+id/setting1"
+				        	            />
+					              <TextView 
+					                  android:layout_width="wrap_content"
+					                  android:layout_height="wrap_content"
+					                  android:text="设置1"
+					                  android:textSize="20sp"
+					                  android:layout_centerVertical="true"
+					                  />
+			              </LinearLayout>
+			              <ImageButton 
+			                  android:id="@+id/idSettingButton8"
+			                  android:layout_width="wrap_content"
+			                  android:layout_height="28dp"
+			                  android:layout_alignParentRight="true"
+			                  android:background="@drawable/settingon"
+			                  />
+		              </RelativeLayout>
+
+	       	          <View  android:layout_height="1px" 
+			           android:layout_width="fill_parent"
+			           android:background="#ffffff"
+			           android:layout_marginTop="4dp"
+			           android:layout_marginBottom="4dp"
+			           android:layout_marginLeft="4dp"
+			           android:layout_marginRight="10dp"
+						/>
+	       	          
+	       	          <RelativeLayout 
+		                  
+		                  android:layout_width="wrap_content"
+		                  android:layout_height="wrap_content"
+		                  android:layout_marginLeft="4dp"
+		                  android:layout_marginRight="10dp"
+		                  android:layout_marginTop="5dp"
+		                  android:layout_marginBottom="5dp"
+		                  >
+		        	        <LinearLayout 
+		        	            android:layout_width="wrap_content"
+		        	            android:layout_height="wrap_content"
+		        	            android:orientation="horizontal"
+			        	            >
+				        	        <ImageView 
+				        	            android:layout_height="24dp"
+				        	            android:layout_width="24dp"
+				        	            android:background="@drawable/a"
+				        	            android:id="@+id/setting1"
+				        	            />
+					              <TextView 
+					                  android:layout_width="wrap_content"
+					                  android:layout_height="wrap_content"
+					                  android:text="设置1"
+					                  android:textSize="20sp"
+					                  android:layout_centerVertical="true"
+					                  />
+			              </LinearLayout>
+			              <ImageButton 
+			                  android:id="@+id/idSettingButton9"
+			                  android:layout_width="wrap_content"
+			                  android:layout_height="28dp"
+			                  android:layout_alignParentRight="true"
+			                  android:background="@drawable/settingon"
+			                  />
+		              </RelativeLayout>
+
+	       	          <View  android:layout_height="1px" 
+			           android:layout_width="fill_parent"
+			           android:background="#ffffff"
+			           android:layout_marginTop="4dp"
+			           android:layout_marginBottom="4dp"
+			           android:layout_marginLeft="4dp"
+			           android:layout_marginRight="10dp"
+						/>
+	       	          
+	       	          <RelativeLayout 
+		                  
+		                  android:layout_width="wrap_content"
+		                  android:layout_height="wrap_content"
+		                  android:layout_marginLeft="4dp"
+		                  android:layout_marginRight="10dp"
+		                  android:layout_marginTop="5dp"
+		                  android:layout_marginBottom="5dp"
+		                  >
+		        	        <LinearLayout 
+		        	            android:layout_width="wrap_content"
+		        	            android:layout_height="wrap_content"
+		        	            android:orientation="horizontal"
+			        	            >
+				        	        <ImageView 
+				        	            android:layout_height="24dp"
+				        	            android:layout_width="24dp"
+				        	            android:background="@drawable/a"
+				        	            android:id="@+id/setting1"
+				        	            />
+					              <TextView 
+					                  android:layout_width="wrap_content"
+					                  android:layout_height="wrap_content"
+					                  android:text="设置1"
+					                  android:textSize="20sp"
+					                  android:layout_centerVertical="true"
+					                  />
+			              </LinearLayout>
+			              <ImageButton 
+			                  android:id="@+id/idSettingButton10"
+			                  android:layout_width="wrap_content"
+			                  android:layout_height="28dp"
+			                  android:layout_alignParentRight="true"
+			                  android:background="@drawable/settingon"
+			                  />
+		              </RelativeLayout>
+
+	       	          <View  android:layout_height="1px" 
+			           android:layout_width="fill_parent"
+			           android:background="#ffffff"
+			           android:layout_marginTop="4dp"
+			           android:layout_marginBottom="4dp"
+			           android:layout_marginLeft="4dp"
+			           android:layout_marginRight="10dp"
+						/>
+	       	          
+	       	          <RelativeLayout 
+		                  
+		                  android:layout_width="wrap_content"
+		                  android:layout_height="wrap_content"
+		                  android:layout_marginLeft="4dp"
+		                  android:layout_marginRight="10dp"
+		                  android:layout_marginTop="5dp"
+		                  android:layout_marginBottom="5dp"
+		                  >
+		        	        <LinearLayout 
+		        	            android:layout_width="wrap_content"
+		        	            android:layout_height="wrap_content"
+		        	            android:orientation="horizontal"
+			        	            >
+				        	        <ImageView 
+				        	            android:layout_height="24dp"
+				        	            android:layout_width="24dp"
+				        	            android:background="@drawable/a"
+				        	            android:id="@+id/setting1"
+				        	            />
+					              <TextView 
+					                  android:layout_width="wrap_content"
+					                  android:layout_height="wrap_content"
+					                  android:text="设置1"
+					                  android:textSize="20sp"
+					                  android:layout_centerVertical="true"
+					                  />
+			              </LinearLayout>
+			              <ImageButton 
+			                  android:id="@+id/idSettingButton11"
+			                  android:layout_width="wrap_content"
+			                  android:layout_height="28dp"
+			                  android:layout_alignParentRight="true"
+			                  android:background="@drawable/settingon"
+			                  />
+		              </RelativeLayout>
+
+	       	          <View  android:layout_height="1px" 
+			           android:layout_width="fill_parent"
+			           android:background="#ffffff"
+			           android:layout_marginTop="4dp"
+			           android:layout_marginBottom="4dp"
+			           android:layout_marginLeft="4dp"
+			           android:layout_marginRight="10dp"
+						/>
+       	  </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

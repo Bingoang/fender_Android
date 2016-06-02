@@ -1,0 +1,126 @@
+<FrameLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageView 
+	    android:layout_height="match_parent"
+	    android:layout_width="match_parent"
+	    android:background="@drawable/background_night"	    
+	    />
+	<LinearLayout 
+	    android:layout_height="fill_parent"
+	    android:layout_width="fill_parent"
+	    android:orientation="vertical"
+	    >
+   <RelativeLayout 
+       android:layout_height="wrap_content"
+       android:layout_width="fill_parent"
+       >
+	    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-Shark智能家居"
+        android:textColor="#ffffff"
+        android:id="@+id/id_Titile"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    >
+        <android.support.v4.view.ViewPager
+        android:id="@+id/pager_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        >
+            <android.support.v4.view.PagerTabStrip
+                android:id="@+id/tab"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="bottom"
+                >
+                
+            </android.support.v4.view.PagerTabStrip>
+
+        </android.support.v4.view.ViewPager>
+      
+        
+			        <FrameLayout 
+			            android:layout_width="wrap_content"
+			            android:layout_height="fill_parent"
+			            android:layout_alignParentRight="true"
+			            android:layout_alignParentTop="true"
+			            >
+					   <ImageView 
+				        android:id="@+id/h_imageView"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:src="@drawable/out"
+				        android:layout_marginLeft="5dp"
+				        android:layout_marginTop="5dp"
+				        />
+				    
+				        <ImageView 
+				        android:id="@+id/g_imageView"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:src="@drawable/out"
+				        android:layout_marginLeft="5dp"
+				        android:layout_marginTop="5dp"
+				        />
+				        <ImageView 
+				         android:id="@+id/f_imageView"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:src="@drawable/aboutus"
+				        android:layout_marginLeft="5dp"
+				        android:layout_marginTop="5dp"
+				        />
+				        <ImageView 
+				        android:id="@+id/e_imageView"    
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:src="@drawable/h"
+				        android:layout_marginLeft="5dp"
+				        android:layout_marginTop="5dp"
+				        />
+				        <ImageView
+				        android:id="@+id/d_imageView"     
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:src="@drawable/dingshitongzhi"
+				        android:layout_marginLeft="5dp"
+				        android:layout_marginTop="5dp"
+				        />
+				       <ImageView
+				        android:id="@+id/c_imageView" 
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:src="@drawable/wifi"
+				        android:layout_marginLeft="5dp"
+				        android:layout_marginTop="5dp"
+				        />
+				        <ImageView 
+				        android:id="@+id/b_imageView"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_marginLeft="5dp"
+				        android:layout_marginTop="5dp"
+				        android:src="@drawable/b"
+				        />
+				        <ImageView 
+				            android:id="@+id/a_imageView"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:src="@drawable/a"
+				        />
+							            
+			        </FrameLayout>
+        
+    </RelativeLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

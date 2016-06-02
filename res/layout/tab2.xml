@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="activitis.MainActivity$PlaceholderFragment" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    
+<communicate.net.MyServiceView 
+    android:layout_height="0dp"
+    android:layout_width="fill_parent"
+    android:layout_weight="2"
+    android:id="@+id/id_myCarmera"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+	android:scaleType="center"
+    />
+<LinearLayout 
+    android:layout_margin="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    android:orientation="vertical"
+    >
+    
+  <ImageButton 
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:src="@drawable/tab2_getimage"
+      android:background="@drawable/touchup_bg"
+      android:id="@+id/id_carmeraButton"
+      />
+  <LinearLayout 
+      android:layout_marginTop="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:orientation="horizontal">
+      <ImageButton 
+      android:layout_marginRight="5dp"
+      android:layout_width="0dp"
+      android:layout_height="fill_parent"
+      android:layout_weight="1"
+      android:src="@drawable/tab2_connecet"
+      android:background="@drawable/touchup_bg"
+      android:id="@+id/id_closeCarmeraButton"
+      />
+      <ImageButton 
+      android:layout_width="0dp"
+      android:layout_height="fill_parent"
+      android:layout_weight="1"
+      android:src="@drawable/tab2_disconnect"
+      android:background="@drawable/touchup_bg"
+      android:id="@+id/id_openCarmeraButton"
+      />
+      
+      
+  </LinearLayout>
+   
+  </LinearLayout>
+</LinearLayout>
+    <!--  android:background="#58104b"-->

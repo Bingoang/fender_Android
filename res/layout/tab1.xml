@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+ <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="0dp"
+     android:layout_weight="2"
+     android:orientation="vertical"
+     android:background="@drawable/touchup_bg"
+     android:layout_marginLeft="10dp"
+     android:layout_marginRight="10dp"
+     android:paddingLeft="10dp"
+     android:paddingRight="10dp"
+     android:paddingTop="10dp"
+     >
+
+      <RelativeLayout 
+        android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+          >
+     <ImageView
+         android:layout_width="180dp"
+         android:layout_height="180dp"
+         android:src="@drawable/door" 
+         android:id="@+id/id_doorStationImageView"
+         />
+
+         <TextView
+         android:id="@+id/id_temputerTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="20°"
+         android:textColor="#ffffff"
+         android:textSize="50dp" 
+         android:layout_gravity="right"
+         android:layout_alignParentRight="true"
+         />
+         
+    </RelativeLayout>
+     
+
+
+     <View  android:layout_height="1px" 
+           android:layout_width="200dp"
+           android:background="#ffffff"
+           android:layout_marginTop="10dp"
+
+	/>
+     	<LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         
+         >
+	      <TextView 
+	         android:id="@+id/id_wasiTextview"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="CPU温度:--"
+	         android:textColor="#ffffff"
+	         android:textSize="16dp"
+	         />
+	        <TextView 
+	         android:id="@+id/id_sysSationTextView"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="门状态:--"
+	         android:textColor="#ffffff"
+	         android:textSize="16dp"
+	         />
+	         <TextView 
+	         android:id="@+id/id_fanghuoTextView"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="防火提示：无"
+	         android:textColor="#ffffff"
+	         android:textSize="16dp"
+	         />
+	         <TextView 
+	         android:id="@+id/id_zhongheTextView"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="综合测评：优"
+	         android:textColor="#ffffff"
+	         android:textSize="16dp"
+	         />
+ 		</LinearLayout>
+ 		<LinearLayout 
+ 		    android:layout_height="match_parent"
+ 		    android:layout_width="match_parent"
+ 		    android:orientation="vertical"
+ 		    android:gravity="bottom"
+ 		    >
+ 		<RelativeLayout 
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_width="match_parent"
+ 		    >
+ 		     <TextView 
+ 		     android:id="@+id/dayText"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="Monday"
+	         android:textColor="#ffffff"
+			 android:textSize="20dp"
+	         />
+ 		     <TextView 
+ 		     android:id="@+id/timeText"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="01:32"
+	         android:textColor="#ffffff"
+			 android:layout_alignParentRight="true"
+			 android:textSize="20dp"
+	         />
+ 		    
+ 		    
+ 		</RelativeLayout>
+ 		<RelativeLayout 
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_width="match_parent"
+ 		    >
+ 		     <TextView 
+ 		     android:id="@+id/mouthText"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="3月31日"
+	         android:textColor="#ffffff"
+	         android:textSize="14dp"
+	         />
+ 		    <TextView 
+ 		        android:id="@+id/amPmText"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="PM"
+	         android:textColor="#ffffff"
+			 android:layout_alignParentRight="true"
+			 android:textSize="14dp"
+	         />
+ 		    
+ 		</RelativeLayout>
+     	</LinearLayout>
+    </LinearLayout>
+	 <LinearLayout 
+	     android:layout_width="fill_parent"
+	     android:layout_height="0dp"
+	     android:layout_weight="1"
+	     android:orientation="vertical"
+	     android:layout_marginTop="3dp"
+	     android:layout_marginLeft="7dp"
+	     android:layout_marginRight="7dp"
+	     >
+     	
+	     
+     	<LinearLayout 
+     	    android:layout_width="fill_parent"
+     	    android:layout_height="0dp"
+     	    android:layout_weight="1"
+     	    android:orientation="horizontal"
+     	    >
+	         <ImageButton 
+	             android:layout_margin="3dp"
+	             android:layout_width="0dp"
+	             android:layout_height="fill_parent"
+	             android:layout_weight="1"
+	             android:background="@drawable/touchup_bg"
+	             android:src="@drawable/msgclosedoorimagebutton"
+	             android:id="@+id/id_msgCloseDoor"
+	             />
+	         <ImageButton 
+	             android:layout_margin="3dp"
+	             android:layout_width="0dp"
+	             android:layout_height="fill_parent"
+	             android:layout_weight="1"
+	             android:background="@drawable/touchup_bg"
+	             android:src="@drawable/openalarm_src"
+	             android:id="@+id/id_closeAlarm"
+	             />
+	         <ImageButton 
+	             android:id="@+id/id_closeDoorView"
+	             android:layout_margin="3dp"
+	             android:layout_width="0dp"
+	             android:layout_height="fill_parent"
+	             android:layout_weight="1"
+	             android:background="@drawable/touchup_bg"
+	             android:src="@drawable/closedoorimagebutton"
+	             />
+     	    
+     	</LinearLayout>
+     	<LinearLayout 
+     	    android:layout_width="fill_parent"
+     	    android:layout_height="0dp"
+     	    android:layout_weight="1"
+     	    android:orientation="horizontal"
+     	    >
+     	     <ImageButton 
+     	         android:layout_margin="3dp"
+	             android:layout_width="0dp"
+	             android:layout_height="fill_parent"
+	             android:layout_weight="1"
+	             android:background="@drawable/touchup_bg"
+	             android:src="@drawable/msgopendoorimagebutton"
+	             android:id="@+id/id_msgOpenDoor"
+	             />
+	         <ImageButton 
+	             android:layout_margin="3dp"
+	             android:layout_width="0dp"
+	             android:layout_height="fill_parent"
+	             android:layout_weight="1"
+	             android:background="@drawable/touchup_bg"
+	             android:src="@drawable/closealarm_src"
+	             android:id="@+id/id_openAlarm"
+	             />
+	         <ImageButton 
+	             android:id="@+id/id_openDoorView"
+	             android:layout_margin="3dp"
+	             android:layout_width="0dp"
+	             android:layout_height="fill_parent"
+	             android:layout_weight="1"
+	             android:background="@drawable/touchup_bg"
+	             android:src="@drawable/opendoorimagebutton"
+	             />
+     	    
+     	</LinearLayout>
+	     
+	 </LinearLayout>
+</LinearLayout>
